@@ -1,0 +1,6 @@
+matplotlib==3.9.2
+matplotlib-inline @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/matplotlib-inline_1699242375920/work
+numpy==1.26.4
+numpydoc @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_69xghc3i3n/croot/numpydoc_1718279166747/work
+pandas==2.3.3
+scikit-learn==1.7.2

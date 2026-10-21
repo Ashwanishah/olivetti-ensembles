@@ -1,0 +1,17 @@
+{
+    "roll_number": "M26MAC007",
+    "seed_rule": "all digits of roll number; sklearn random_state = seed mod (2^31 - 1)",
+    "split": "per identity 6 train / 2 val / 2 test",
+    "mask": "rows and columns 24-39 set to 0 (test only)",
+    "q1_tree_grid": {"max_depth": [2, 4, 8, 16, null], "min_samples_leaf": [1, 2, 4]},
+    "q1_frozen_tree": {"max_depth": null, "min_samples_leaf": 4},
+    "q1_bagging_B": [1, 5, 10, 25, 50, 100, 200],
+    "q1_final_B": 100,
+    "q2_depths": [1, 2, 3, 4],
+    "q2_rounds": [10, 25, 50, 100],
+    "q2_selected": {"depth": 4, "rounds": 100},
+    "q3_repetitions": 30,
+    "q3_depths": {"shallow": {"max_depth": 4, "min_samples_leaf": 4},
+                  "selected": {"max_depth": null, "min_samples_leaf": 4},
+                  "deepest": {"max_depth": null, "min_samples_leaf": 1}}
+  }
