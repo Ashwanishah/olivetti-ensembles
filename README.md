@@ -9,7 +9,7 @@ Raw flattened pixels only (no PCA).
 ## Reproduce
 
 ```bash
-git clone https://github.com/<your-username>/olivetti-ensembles.git
+git clone https://github.com/Ashwanishah/olivetti-ensembles.git
 cd olivetti-ensembles
 pip install -r requirements.txt
 jupyter nbconvert --to notebook --execute assignment.ipynb --output assignment_rerun.ipynb
